@@ -1,15 +1,3 @@
-#game-container {
-    background-color: black;
-    height: 98vh;
-    width: 100%;
-}
-
-#game {
-    height: 100%;
-    width: 80%;
-    flex-direction: column;
-}
-
 #title-container {
     width: 100%;
     height: 35%;

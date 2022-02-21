@@ -5,13 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Frontier</title>
-    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="stylesheet" href="/assets/styles/character-page.css">
 </head>
 <body>
-    <div class="container">
-        <div class="container" id="game-window">
-            <div class="conatiner" id="game">
-
+    <div class="container" id="game-container">
+        <div class="conatiner" id="game">
+            <header class="container">
+                <div class="container" id="title-container">
+                    <h1>This is you</h1>
+                </div>
+                <div class="container" id="gender-container">
+                    <button class="btn" id="male-btn">♂</button>
+                    <button class="btn" id="female-btn">♀</button>
+                </div>
+            </header>
+            <div class="container" id="info-wrapper">
+                <div class="container" id="character-container" >
+                    <div>
+                        <h3 id="player-name">Your name here</h3>
+                    </div>
+                    <div class="container" id="character">
+                        <img src="/assets/images/character-images/placeholder-character.png" alt="this is your character" id="character-img">
+                    </div>
+                    <div class="container" id="name-container">
+                        <h3>and your name is?</h3>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="container" id="skill-container">
+                    <div class="container" id="skill-window">
+                        <ul class="container" id="skill-list">
+                            <h3 id="skills-title">Your Skills</h3>
+                            <li class="skill-lvl" id="shooting-lvl">1</li>
+                            <li class="skill-lvl" id="brawler-lvl">1</li>
+                            <li class="skill-lvl" id="dexterity-lvl">1</li>
+                            <li class="skill-lvl" id="protection-lvl">1</li>
+                            <li class="skill-lvl" id="health-lvl">1</li>
+                            <li class="skill-lvl" id="lumberjack-lvl">1</li>
+                            <li class="skill-lvl" id="prospector-lvl">1</li>
+                            <li class="skill-lvl" id="fishermen-lvl">1</li>
+                            <li class="skill-lvl" id="trapper-lvl">1</li>
+                            <li class="skill-lvl" id="survivalist-lvl">1</li>
+                            <li class="skill-lvl" id="craftsmen-lvl">1</li>
+                            <li class="skill-lvl" id="blacksmith-lvl">1</li>
+                            <li class="combo-lvl" id="combat-lvl">1</li>
+                            <li class="combo-lvl" id="total-lvl">1</li>
+                        </ul>
+                    </div>
+                    <div class="container" id="enter-container">
+                        <button class="btn" id="enter-btn">Enter the Frontier</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

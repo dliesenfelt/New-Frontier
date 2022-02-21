@@ -1,0 +1,114 @@
+header {
+    height: 20%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3  {
+    font-size: 2rem;
+}
+
+#gender-container {
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+}
+
+#male-btn, #female-btn {
+    margin: 1%;
+    height: 40%;
+    width: 5%;
+    font-size: 2.5rem;
+}
+
+#info-wrapper {
+    flex-direction: row;
+    height: 70%;
+}
+
+#character-container {
+    height: 100%;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+#character {
+    height: 80%
+}
+
+#character-img {
+    height: 100% ;
+    width: 50%;
+}
+
+#name-container {
+    height: 20%;
+    justify-content: flex-end;
+}
+
+#skill-container {
+    height: 100%;
+    width: 40%;
+}
+
+#skill-window {
+    outline: 2px solid white;
+    width: 60%;
+    height: 80%;
+    background-color: white;
+}
+
+#skills-title {
+    color: white;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#skill-list {
+    outline: 2px solid white;
+    height: 95%;
+    width: 93%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    background-color: black;
+}
+
+.skill-lvl {
+    outline: 2px solid white;
+    height: 13%;
+    width: 26.5%;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.combo-lvl {
+    outline: 2px solid white;
+    height: 15%;
+    width: 43%;
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#enter-container {
+    margin-top: 15%;
+    width: 100%;
+    height: 10%;
+}
+
+#enter-btn {
+    margin-top: 2%;
+    height: 100%;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
